@@ -3,13 +3,7 @@ import json
 
 app = Flask(__name__)
 
-# In-memory database (for simplicity)
-# books = [
-#     {"id": 1, "title": "The Psychology of Money", "author": "Morgan Housel"},
-#     {"id": 2, "title": "Ikigai", "author": "Francesc Miralles"},
-#     {"id": 3, "title": "The Power of your subconscious mind", "author": "Joseph Murphy"}
-# ]
-
+# load json
 data = json.load(open("data.json", "r"))["cars"]
 
 #Route to get all car
@@ -17,7 +11,7 @@ data = json.load(open("data.json", "r"))["cars"]
 def get_cars():
     return jsonify(data)
 
-# Route to get a single book by id
+# Route to get a single car by id
 @app.route('/cars/<int:id>', methods=['GET'])
 def get_car(id):
     car = next((car for car in data if car['id'] == id), None)
