@@ -91,4 +91,40 @@ APIs are the backbone of the modern software architecture, enabling everything f
 
 *Creating an API in Python is straightforward, especially using frameworks like Flask or FastAPI*
 - *Flask.py* guides through creating a simple API using Flask, which is lightweight and easy to use framework.
+    ```bash
+    python app.py # The Flask development server will start, and the API will be accessible at http://127.0.0.1:5000.
+
+    # test the API using a tool like Postman or curl.
+    # GET/cars
+    curl http://127.0.0.1:5000/cars
+
+    # GET/cars/1
+    curl http://127.0.0.1:5000/cars/1
+
+    # POST/cars
+    curl -X POST -H "Content-Type: application/json" -d ' {
+            "model": "M4 Competition",
+            "brand": "BMW",
+            "year": 2024,
+            "engine": "3.0L Twin-Turbocharged Inline-6",
+            "horsepower": 503,
+            "torque": "479 lb-ft",
+            "drivetrain": "RWD",
+            "transmission": "8-speed automatic",
+            "top_speed": "180 mph",
+            "acceleration_0_60": "3.8 seconds",
+            "weight": "3,880 lbs",
+            "price": "$76,000"
+        }' http://127.0.0.1:5000/cars
+
+    # PUT/cars/1
+    curl -X PUT -H "Content-Type: application/json" -d '{"top_speed": "190 mph",
+            "acceleration_0_60": "3.5 seconds",
+            "weight": "3,880 lbs",
+            "price": "$80,000"}' http://127.0.0.1:5000/cars/1
+
+
+    # DELETE/cars/1
+    curl -X DELETE http://127.0.0.1:5000/cars/1
+    ```
 - *FastAPI.py* gives brief overview of FastAPI,which is another powerful option for creating APIs.
