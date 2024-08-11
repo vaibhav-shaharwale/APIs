@@ -1,0 +1,64 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "model": "Supra",
+            "brand": "Toyota",
+            "year": 2024,
+            "engine": "3.0L Turbocharged Inline-6",
+            "horsepower": 382,
+            "torque": "368 lb-ft",
+            "drivetrain": "RWD",
+            "transmission": "8-speed automatic",
+            "top_speed": "155 mph"
+        },
+        {
+            "id": 2,
+            "model": "911 Carrera",
+            "brand": "Porsche",
+            "year": 2024,
+            "engine": "3.0L Twin-Turbocharged Flat-6",
+            "horsepower": 379,
+            "torque": "331 lb-ft",
+            "drivetrain": "RWD",
+            "transmission": "8-speed dual-clutch automatic",
+            "top_speed": "182 mph"
+        },
+        {
+            "id": 3,
+            "model": "Mustang GT",
+            "brand": "Ford",
+            "year": 2024,
+            "engine": "5.0L V8",
+            "horsepower": 450,
+            "torque": "410 lb-ft",
+            "drivetrain": "RWD",
+            "transmission": "6-speed manual",
+            "top_speed": "155 mph"
+        },
+        {
+            "id": 4,
+            "model": "C8 Corvette Stingray",
+            "brand": "Chevrolet",
+            "year": 2024,
+            "engine": "6.2L V8",
+            "horsepower": 495,
+            "torque": "470 lb-ft",
+            "drivetrain": "RWD",
+            "transmission": "8-speed dual-clutch automatic",
+            "top_speed": "194 mph"
+        },
+        {
+            "id": 5,
+            "model": "Aventador S",
+            "brand": "Lamborghini",
+            "year": 2023,
+            "engine": "6.5L V12",
+            "horsepower": 730,
+            "torque": "509 lb-ft",
+            "drivetrain": "AWD",
+            "transmission": "7-speed automated manual",
+            "top_speed": "217 mph"
+        }
+    ]
+}

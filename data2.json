@@ -1,0 +1,79 @@
+{
+    "cars": [
+        {
+            "id": 6,
+            "model": "GTR",
+            "brand": "Nissan",
+            "year": 2024,
+            "engine": "3.8L Twin-Turbocharged V6",
+            "horsepower": 565,
+            "torque": "467 lb-ft",
+            "drivetrain": "AWD",
+            "transmission": "6-speed dual-clutch automatic",
+            "top_speed": "196 mph",
+            "acceleration_0_60": "2.9 seconds",
+            "weight": "3,933 lbs",
+            "price": "$115,000"
+        },
+        {
+            "id": 7,
+            "model": "488 GTB",
+            "brand": "Ferrari",
+            "year": 2023,
+            "engine": "3.9L Twin-Turbocharged V8",
+            "horsepower": 661,
+            "torque": "561 lb-ft",
+            "drivetrain": "RWD",
+            "transmission": "7-speed dual-clutch automatic",
+            "top_speed": "205 mph",
+            "acceleration_0_60": "3.0 seconds",
+            "weight": "3,252 lbs",
+            "price": "$262,000"
+        },
+        {
+            "id": 8,
+            "model": "Huracan EVO",
+            "brand": "Lamborghini",
+            "year": 2024,
+            "engine": "5.2L V10",
+            "horsepower": 631,
+            "torque": "443 lb-ft",
+            "drivetrain": "AWD",
+            "transmission": "7-speed dual-clutch automatic",
+            "top_speed": "202 mph",
+            "acceleration_0_60": "2.9 seconds",
+            "weight": "3,423 lbs",
+            "price": "$261,000"
+        },
+        {
+            "id": 9,
+            "model": "M4 Competition",
+            "brand": "BMW",
+            "year": 2024,
+            "engine": "3.0L Twin-Turbocharged Inline-6",
+            "horsepower": 503,
+            "torque": "479 lb-ft",
+            "drivetrain": "RWD",
+            "transmission": "8-speed automatic",
+            "top_speed": "180 mph",
+            "acceleration_0_60": "3.8 seconds",
+            "weight": "3,880 lbs",
+            "price": "$76,000"
+        },
+        {
+            "id": 10,
+            "model": "F8 Tributo",
+            "brand": "Ferrari",
+            "year": 2023,
+            "engine": "3.9L Twin-Turbocharged V8",
+            "horsepower": 710,
+            "torque": "568 lb-ft",
+            "drivetrain": "RWD",
+            "transmission": "7-speed dual-clutch automatic",
+            "top_speed": "211 mph",
+            "acceleration_0_60": "2.9 seconds",
+            "weight": "3,164 lbs",
+            "price": "$280,000"
+        }
+    ]
+}
